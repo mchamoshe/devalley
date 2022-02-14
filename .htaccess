@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteBase /
+RewriteCond %{HTTP_HOST} ^https://dev-valley.com/home.html [NC]
+RewriteRule ^(.*)$ https://dev-valley.com $1 [L,R=301]
