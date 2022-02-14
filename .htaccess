@@ -1,4 +1,4 @@
 RewriteEngine On
 RewriteBase /
-RewriteCond %{HTTPS_HOST} ^dev-valley.com/home.html [NC]
+RewriteCond %{HTTP_HOST} ^dev-valley.com/home.html [NC]
 RewriteRule ^(.*)$ https://dev-valley.com $1 [L,R=301]
