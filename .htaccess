@@ -1,4 +1,2 @@
-RewriteEngine On
-RewriteBase /
-RewriteCond %{HTTP_HOST} ^dev-valley.com/home.html [NC]
-RewriteRule ^(.*)$ https://dev-valley.com/$1 [L,R=301]
+#Alternate default index page
+DirectoryIndex home.html
